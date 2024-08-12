@@ -1,0 +1,38 @@
+h1{
+    color: rgb(15, 27, 159);
+    background-color: rgb(110, 211, 242);
+   
+   background-size: cover;
+    margin: 0px;
+   position: relative ;
+
+}
+.answer{
+    color: rgb(255, 149, 0);
+    font-size: 60px;
+    text-align: center;
+}
+.container{
+   
+    margin: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-self: center;
+    background-color:  rgb(110, 211, 242);
+    padding: 20px;
+    height: 150px;
+   
+}
+input{
+    width: 100%;
+    height: 40px;
+}
+.buttons{
+    width:100%;
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

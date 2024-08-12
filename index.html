@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/calc.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <h1>Calculator</h1>
+    </div>
+    <p class="answer"></p>
+    <div class="container">
+
+        <input type="text">
+        <div class="buttons">
+            <button onclick="empty('AC')">AC</button>
+            <button onclick="showindisplay('%')">%</button>
+            <button onclick="empty(' ')">🔙</button>
+            <button onclick="showindisplay('/')">/</button>
+            <button onclick="showindisplay('9')">9</button>
+            <button onclick="showindisplay('8')">8</button>
+            <button onclick="showindisplay('7')">7</button>
+            <button onclick="showindisplay('*')">*</button>
+            <button onclick="showindisplay('6')">6</button>
+            <button onclick="showindisplay('5')">5</button>
+            <button onclick="showindisplay('4')">4</button>
+            <button onclick="showindisplay('-')">-</button>
+            <button onclick="showindisplay('3')">3</button>
+            <button onclick="showindisplay('2')">2</button>
+            <button onclick="showindisplay('1')">1</button>
+            <button onclick="showindisplay('+')">+</button>
+            <button onclick="showindisplay('0')">00</button>
+            <button onclick="showindisplay('00')">0</button>
+            <button onclick="showindisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
